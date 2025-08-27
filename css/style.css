@@ -618,4 +618,7 @@ input, textarea {
     padding: 30px 20px;  /* meno padding */
   }
 }
+ .offset-1, .col-5 {
+    margin-left: 50px !important;
+  }
 /*  Fix per schermi piccoli */
