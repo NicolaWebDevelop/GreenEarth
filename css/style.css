@@ -617,8 +617,9 @@ input, textarea {
   .overlay-box, .overlay-box1 {
     padding: 30px 20px;  /* meno padding */
   }
-}
+
  .mobilee {
     margin-left: 30px !important;
+  }
   }
 /*  Fix per schermi piccoli */
