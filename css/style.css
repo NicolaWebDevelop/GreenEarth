@@ -577,3 +577,50 @@ input, textarea {
   flex: 0 0 auto;
   width: 39.666667% !important;
 }
+
+
+/* Fix per schermi piccoli */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;   /* ridotto */
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .titlebig {
+    font-size: 6vw;     /* proporzionale allo schermo */
+    letter-spacing: 1vw;
+    text-align: center;
+  }
+
+  .titlep {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .sottotitolo {
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+
+  .btn2 {
+    margin: 20px auto;  /* centrato e più piccolo */
+    display: block;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .overlay-box, .overlay-box1 {
+    padding: 30px 20px;  /* meno padding */
+  }
+
+  .offset-1, .col-5 {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+}
+/*  Fix per schermi piccoli */
