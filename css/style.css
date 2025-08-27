@@ -617,10 +617,5 @@ input, textarea {
   .overlay-box, .overlay-box1 {
     padding: 30px 20px;  /* meno padding */
   }
-
-  .offset-1, .col-5 {
-    margin-left: 0 !important;
-    width: 100% !important;
-  }
 }
 /*  Fix per schermi piccoli */
